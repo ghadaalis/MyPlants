@@ -12,6 +12,7 @@ struct MyPlantsApp: App {
     var body: some Scene {
         WindowGroup {
             HomePage()
+                .preferredColorScheme(.dark)
         }
     }
 }
